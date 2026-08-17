@@ -1,11 +1,23 @@
-# Micoa Tech Trading
+# Maicoa Tech Trading
 
-A Flutter paper-trading starter app with virtual funds. Version 1 is intentionally simulated and does not execute real trades.
+A complete Flutter starter project for the Maicoa Tech Trading app.
 
-## Run
-1. Install Flutter.
-2. Run `flutter create .` inside this folder if platform folders are needed.
-3. Replace the generated `lib/main.dart` with this project's `lib/main.dart`.
-4. Run `flutter pub get` and `flutter run`.
+## Included
+- Flutter Android project structure
+- `android/` directory
+- Material 3 UI
+- Dashboard
+- Markets screen
+- Portfolio screen
+- Profile screen
+- Demo market/portfolio data
 
-This prototype starts with $10,000 virtual cash and includes dashboard, markets, watchlist, portfolio, buy/sell simulation, and trade history.
+## Important
+This version is a UI/demo starter. It does not execute real-money trades or handle deposits/withdrawals. Those features require a secure backend, authentication, live market data, appropriate payment/trading integrations, and compliance review.
+
+## Build
+Use Flutter to fetch dependencies and build an Android App Bundle:
+
+`flutter pub get`
+
+`flutter build appbundle --release`
